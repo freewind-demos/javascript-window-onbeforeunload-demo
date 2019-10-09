@@ -1,3 +1,3 @@
-var main = document.getElementById("main");
-main.innerHTML = "Hello, JS!";
-
+window.addEventListener("beforeunload", (e) => {
+  e.returnValue = 'any text here but required';
+})
